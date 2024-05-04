@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #f9b200;
+
+}
+
+body{
+    background-color: #993520;
+}
+
+.img-logo img{
+    width: 100px;
+    margin-left: 25px;
+}
+
+nav{
+    padding: 20px;
+    background-color: rgb(54, 54, 54);
+    position: fixed;
+    position: relative;
+}
+
+.nav{
+    position: absolute;
+    right: 25px;
+    top: 42px;
+}
+
+.nav a{
+    margin-right: 40px;
+    font-size: 18px;
+    color: #f9b200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #993520;
+    font-size: 20px;
+}
