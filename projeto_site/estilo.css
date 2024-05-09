@@ -4,25 +4,21 @@
     box-sizing: border-box;
 }
 
-h1{
-    color: #f9b200;
-
-}
 
 body{
-    background-color: #993520;
+    background-color: #d8daf5;
 }
 
 .img-logo img{
-    width: 100px;
-    margin-left: 25px;
+    width: 160px;
+    margin-left: 50px;
+    
 }
 
 nav{
     padding: 20px;
-    background-color: rgb(54, 54, 54);
-    position: fixed;
-    position: relative;
+    background-color: rgb(240, 242, 245)
+    
 }
 
 .nav{
@@ -33,13 +29,13 @@ nav{
 
 .nav a{
     margin-right: 40px;
-    font-size: 18px;
-    color: #f9b200;
+    font-size: 25px;
+    color: #0844c7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
 
 .nav a:hover{
-    color: #993520;
+    color: #215af8;
     font-size: 20px;
 }
