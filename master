@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="image">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEGfMzwSFH61QhAmUl19Mn0r3Y9XvtFPdXcg22SOrJzw&s" title="logo" width="110px" height="100px">
+            <img src="WhatsApp_Image_2024-05-09_at_08.04.25-removebg-preview.png" title="logo" width="px" height="150px">
         </div>
 
         <div class="form" id="formulario">
@@ -19,8 +19,9 @@
 
             <input type="email" id="email" name="email" placeholder="Email:" required>
 
-            <label>Concordo com os <a href="https://www.rcassessoriacontabil.cnt.br/_shared/nicedit/upl22072021142314-rc--politica-de-privacidade.pdf">termos de privacidade</a> do site</label>
-            <input type="checkbox" id="checkbox" name="termo" value="aceito" required>
+            <label>Concordo com os <a href="https://www.rcassessoriacontabil.cnt.br/_shared/nicedit/upl22072021142314-rc--politica-de-privacidade.pdf">termos de privacidade</a> do site <input type="checkbox" id="checkbox" name="termo" value="aceito" required> </label>
+            
+            
 
             <button type="submit" class="enviar">Enviar</button>
 
