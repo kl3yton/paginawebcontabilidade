@@ -1,0 +1,266 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Minha primeira página HTML</title>
+        <style>
+            header{
+               background-color: rgb(255, 60, 0); 
+                color: white;
+                text-align: center;
+            }
+            .estilo1{
+                font-size: 16px;
+                font-family: 'Times New Roman', Times, serif;
+                height: 120px;
+                margin: 50px;
+                margin-bottom: 110px;
+            }
+            .tabela{
+                float: left;
+                background-color: rgb(255, 60, 0);
+                width: 50%;
+            }
+            .lista{
+                background-color: rgb(0, 0, 0);
+                color: aliceblue;
+                width: 50%;
+            }
+        
+            .duas-colunas{
+                display: flex;
+                margin-bottom: 50px;
+                margin-top: 50px;
+            }
+            .tres-colunas{
+                display: flex;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            .estilo-html{
+                background-color: rgb(255, 60, 0);
+                width: 33,33%;
+                padding: 20px;
+            }
+            .estilo-css{
+                background-color:black;
+                color: aliceblue;
+                width: 33,33%;
+                padding: 20px;
+            }
+            .estilo-javascript{
+                background-color: rgb(255, 60, 0);
+                width: 33,33%;
+                padding: 20px;
+            }
+            .form{
+                padding: 20px;
+            }
+            .form input,textarea,select{
+                width: 100%;
+            }
+            footer{
+                background-color: black;
+                text-align: center;
+                color: white;
+            }
+            footer ul{
+                text-align: center;
+                display: flex;
+                list-style:none;
+                justify-content: space-evenly;
+            }
+            .menu{
+                display: flex;
+                list-style:none;
+                justify-content: space-evenly;
+                background-color: rgb(255, 60, 0);
+                padding: 20px;
+            }
+            .menu a:link{
+                    color:white;
+            }
+
+            .menu a:hover{
+                background-color: black;
+                color: white;
+                font-size: 18px;
+            }
+            .menu a:active{
+                background-color: rgb(255, 60, 0);
+                color:black;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <!-- Header = Topo do site-->
+            <header id="topo">
+        <h1>HTML <sup>Linguagem de Marcação de HIpertexto</sup></h1>
+        <h2>Tutoriais para Iniciantes</h2>
+            </section>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><a href=#topo>Topo</a></li>
+                    <li><a href=#HTML>HTML</a></li>
+                    <li><a href=#CSS>CSS</a></li>
+                    <li><a href=#JavaScript>JavaScript</a></li>
+                    <li><a href=#linkuteis>Links Úteis</a></li>
+                    <li><a href=#formulario>Forulário de Contato</a></li>
+                </ul>
+             </nav>
+            <!--Fim do topo do site-->
+            <section class="estilo1">
+                <img align="left"
+                    src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1HVNHQmF6XqXS0xqpvfcJFY3cQIAQEB3XmJ_edOZdMQ&sg&s">
+                <p> <b><ins>HTML</ins></b>(<i>Linguagem de Marcação de HiperTexto</i>). É o cloco de contrução mais básico da
+                    web.<mark> Define o significado e a estrutura do conteúdo da web.</mark>Outras tecnologias do HTML geralmente
+                    são usadas para descrever a aparência/apresentação (CSS) ou a funcionabilidade/ comportamento (
+                    <em>JavaScript</em>) em uma página Web. </p>
+            </section>
+            <section class="duas-colunas">
+                <section class="tabela">
+                    <table border="1">
+                        <CAPTION> Tabela de TAGS HTML</CAPTION>
+                    <thead>
+                        <tr>
+                        <th>TAG</th>
+                        <th>UTILIDADE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Define o escopo de um documento HTML</td>
+                        </tr>
+                        <tr>
+                            <td>P</td>
+                            <td>Define um parágrafo no documento</td>
+                        </tr>
+                        <tr>
+                            <td>a</td>
+                            <td>Tag de Ancoragem, inserir link  de uma página HTML</td>
+                        </tr>
+                        <tr>
+                            <td>b</td>
+                            <td> Deixa as palavras em negrito</td>    
+                        </tr>
+                        <tr>
+                            <td>i</td>
+                            <td>Deixa a palavra em italico</td>
+                        </tr>
+                        <tr>
+                            <td>mark</td>
+                            <td>Deixa a palavra marcada</td>
+                        </tr>
+                        <tr>
+                            <td>del</td>
+                            <td>Deixa as palavras riscadas</td>
+                        </tr>
+                        <tr>
+                            <td>ins</td>
+                            <td>Deixa as palavras sublinhadas</td>
+                        </tr>
+                            <tfoot>
+                            <tr>
+                                <th colspan="2">Referencia da internet</th>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                    </table>
+                </section>
+                <section class="lista">
+                    <!--Lista ordenada = ol-->
+                    <ol>
+                        <li>HTTP</li>
+                    <!--Lista não ordenada = ul-->
+                            <ul>
+                                <li>hypertex Trasfer Protocol</li>
+                                <li>Protocolo que transfere informações</li>
+                            </ul>
+                        <li>FTP</li>
+                            <ul>
+                                <li>File transfer Protocol</li>
+                                <li>Protocolo que Transfere Arquivos</li>
+                            </ul>
+                        <li>POP</li>
+                             <ul>
+                                <li>Post Ofice</li>
+                                <li>Procedimento Operacional Pafrão</li>
+                             </ul>   
+                         <li>SMTO</li>
+                             <ul>
+                                <li>Simple Mail Trasnfer Protocol</li>
+                                <li>Protocolo que Tranfere Emails</li>
+                             </ul>
+                         <li>IMAP</li>
+                            <ul>
+                                <li>Internet Message Acess Protocol</li>
+                                <li>Protocolo de Acesso a Menssagens</li>
+                            </ul>
+                            
+                        
+                    </ol>
+                </section>
+            </section>
+        <section class="tres-colunas">
+            <section class="estilo-html" id="HTML">
+               <h2> HTML</h2>
+               <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo, conectados por hiperligações. O padrão é independente de outros padrões de processamento de texto em geral.</p>
+            </section>
+            <section class="estilo-css" id="CSS">
+                <h2>CSS</h2>
+                <p>é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) a uma página web,[1] aplicado diretamente nas tags HTML ou ficar contido dentro das tags style Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS, basta modifica-lo.</p>
+            </section>
+            <section class="estilo-javascript" id="JavaScript">
+                <h2>JavaScript</h2>
+                <p>é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional).[2][3] Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo</p>
+            </section>
+        </section>
+        <section id="formulario">    
+            <form method="post" action="kleyton site obrigado.html"> 
+                <caption><h2>Formulário de Contato</h2></caption>
+                <label>Nome: </label> <!-- Rotulo-->
+                <input type="text" name="nome" required>  <!-- Elemento input-->
+
+                <label>Idade:</label>
+                <input type="number" name="idade">
+
+                <label>E-mail: </label>
+                <input type="email" name="email"> 
+
+                <label>Assunto: </label>
+                <select name="assunto">
+                    <option value="Sugestão">Seugestão</option>
+                    <option value="Reclamação">Reclamaçãoo</option>
+                    <option value="Elogio" selected>Elogio</option>
+                </select>
+        
+
+                <label>Mensagem:</label>
+                <textarea name="mensagem"> </textarea>
+
+                <input type="checkbox" nae="termo" value="aceito" required>
+                <label> Concordo com os termos de privacidade do site</label>
+
+                <button type="submit"> Enviar</button> 
+                <button type="reset"> Reset</button>
+            </form>
+        </section>   
+        </div>
+        <footer id="linkuteis">
+            <section>
+                Links Úteis
+                <ul>
+                    <li><a href=#topo>Voltar ao topo</a></li>
+                    <li><a href=#HTML>Sobre HTML</a></li>
+                    <li><a href=#CSS>Sobre CSS</a></li>
+                    <li><a href=#JavaScript>Sobre JavaScript</a></li>
+                </ul>
+            </section>
+            <p>Direitos Resevados - Autor: Kleyton Filho</p>
+        </footer>
+    </body>
+</html>
