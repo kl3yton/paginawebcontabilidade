@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="image">
-            <img src="WhatsApp_Image_2024-05-09_at_08.04.25-removebg-preview.png" title="logo" width="px" height="150px">
+            <img src="WhatsApp_Image_2024-05-09_at_08.04.25-removebg-preview.png" title="logo" width="300px" height="150px">
         </div>
 
         <div class="form" id="formulario">
