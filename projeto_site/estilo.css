@@ -1,11 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
-body{
+#body{
     background-color: #d8daf5;
 }
 
@@ -33,9 +28,13 @@ nav{
     color: #0844c7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    
 }
 
 .nav a:hover{
     color: #215af8;
     font-size: 20px;
+    background-color: rgb(223, 220, 220);
+    border-radius: 20px;
+    padding: 10px;
 }
