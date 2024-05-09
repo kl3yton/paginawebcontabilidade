@@ -1,0 +1,31 @@
+#sectionhd{
+    padding-top: 5px;
+    background-color: rgba(33, 52, 105, 1);
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+}
+#phd{
+    background-color: rgb(223, 220, 220);
+    border-radius: 5px;
+    color: gray;
+    padding: 33px;
+}
+#h1hd{
+    margin-left: 43%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+#frequentes{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#spanhd{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 40px;
+    color: grey;
+}
