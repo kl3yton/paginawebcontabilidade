@@ -5,15 +5,15 @@
 }
 
 .img-logo img{
-    width: 160px;
+    width: 150px;
     margin-left: 50px;
     
 }
 
 nav{
     padding: 20px;
-    background-color: rgb(240, 242, 245);
-    border-bottom: 2px solid #0844c7;
+    background-color:#efeaed;
+    border-bottom: 2px solid rgba(33, 52, 105, 1);
 }
 
 .nav{
@@ -25,14 +25,14 @@ nav{
 .nav a{
     margin-right: 40px;
     font-size: 25px;
-    color: #0844c7;
+    color: rgba(33, 52, 105, 1);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     
 }
 
 .nav a:hover{
-    color: #215af8;
+    color:rgba(33, 52, 105, 1);
     font-size: 20px;
     background-color: rgb(223, 220, 220);
     border-radius: 20px;
