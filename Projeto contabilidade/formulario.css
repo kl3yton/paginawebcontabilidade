@@ -45,3 +45,17 @@ body{
     cursor: pointer;
     margin-top: 15px;
 }
+
+/* Adicionando uma animação no botão enviar */
+button.enviar {
+    background-color:  rgba(33, 52, 105, 1);
+    color: white; 
+    padding: 15px 20px; 
+    border: none; 
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+}
+
+button.enviar:hover {
+    transform: scale(1.1); 
+}
