@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+p{
+    text-align: left;
+    padding:  0 50px; 
+}
+
+#sobrenos{
+    height: 150px;
+    width: 100%;
+    background-image: url(imagem/Imagem\ do\ WhatsApp\ de\ 2024-05-17\ à\(s\)\ 16.00.35_8abd3bd5.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'MS3';
+    text-align: center;
+    justify-content: center;
+}
