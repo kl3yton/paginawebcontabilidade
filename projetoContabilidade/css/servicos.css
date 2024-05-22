@@ -91,7 +91,7 @@ div.desc2 {
     /* centraliza os elementos horizontalmente */
 }
 
-#tres {
+#servicos {
     column-count: 3;
     column-gap: 33px;
     margin-top: 50px;
